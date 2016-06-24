@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC" : 0,
+    "219D982EEFBE0A58502248B4BF033B2B319695C4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3B92EC4-D417-4968-9338-BF420F189633",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC" : "NUI\/",
+    "219D982EEFBE0A58502248B4BF033B2B319695C4" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NUIDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/NUIDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hellofresh\/ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "219D982EEFBE0A58502248B4BF033B2B319695C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tombenner\/nui",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC"
+    }
+  ]
+}
