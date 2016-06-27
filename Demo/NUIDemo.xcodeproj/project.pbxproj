@@ -143,7 +143,7 @@
 		1B84AE3C1D1D373F00AF97F7 /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADAB1D1D373F00AF97F7 /* NUIAppearance.h */; };
 		1B84AE3D1D1D373F00AF97F7 /* NUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADAC1D1D373F00AF97F7 /* NUIAppearance.m */; };
 		1B84AE3E1D1D373F00AF97F7 /* NUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADAD1D1D373F00AF97F7 /* NUIConstants.h */; };
-		1B84AE3F1D1D373F00AF97F7 /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADAE1D1D373F00AF97F7 /* NUIConverter.h */; };
+		1B84AE3F1D1D373F00AF97F7 /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADAE1D1D373F00AF97F7 /* NUIConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B84AE401D1D373F00AF97F7 /* NUIConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADAF1D1D373F00AF97F7 /* NUIConverter.m */; };
 		1B84AE411D1D373F00AF97F7 /* NUIFileMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB01D1D373F00AF97F7 /* NUIFileMonitor.h */; };
 		1B84AE421D1D373F00AF97F7 /* NUIFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB11D1D373F00AF97F7 /* NUIFileMonitor.m */; };
@@ -153,9 +153,9 @@
 		1B84AE461D1D373F00AF97F7 /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB51D1D373F00AF97F7 /* NUIRenderer.m */; };
 		1B84AE471D1D373F00AF97F7 /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB61D1D373F00AF97F7 /* NUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B84AE481D1D373F00AF97F7 /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB71D1D373F00AF97F7 /* NUISettings.m */; };
-		1B84AE491D1D373F00AF97F7 /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB81D1D373F00AF97F7 /* NUIStyleParser.h */; };
+		1B84AE491D1D373F00AF97F7 /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB81D1D373F00AF97F7 /* NUIStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B84AE4A1D1D373F00AF97F7 /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB91D1D373F00AF97F7 /* NUIStyleParser.m */; };
-		1B84AE4B1D1D373F00AF97F7 /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADBA1D1D373F00AF97F7 /* NUISwizzler.h */; };
+		1B84AE4B1D1D373F00AF97F7 /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADBA1D1D373F00AF97F7 /* NUISwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B84AE4C1D1D373F00AF97F7 /* NUISwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADBB1D1D373F00AF97F7 /* NUISwizzler.m */; };
 		1B84AE4D1D1D373F00AF97F7 /* NUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADBC1D1D373F00AF97F7 /* NUIUtilities.h */; };
 		1B84AE4E1D1D373F00AF97F7 /* NUIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADBD1D1D373F00AF97F7 /* NUIUtilities.m */; };
@@ -1328,6 +1328,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B84AE4B1D1D373F00AF97F7 /* NUISwizzler.h in Headers */,
+				1B84AE491D1D373F00AF97F7 /* NUIStyleParser.h in Headers */,
+				1B84AE3F1D1D373F00AF97F7 /* NUIConverter.h in Headers */,
 				1B84AE471D1D373F00AF97F7 /* NUISettings.h in Headers */,
 				1B84AE531D1D373F00AF97F7 /* NUIMediaBlock.h in Headers */,
 				1B84AE891D1D373F00AF97F7 /* NUITextInputTraitsRenderer.h in Headers */,
@@ -1369,7 +1372,6 @@
 				1B84AD5A1D1D34B700AF97F7 /* NUIPRHSItemResult.h in Headers */,
 				1B84AE631D1D373F00AF97F7 /* NUIVariableToken.h in Headers */,
 				1B84AE8F1D1D373F00AF97F7 /* NUIViewRenderer.h in Headers */,
-				1B84AE3F1D1D373F00AF97F7 /* NUIConverter.h in Headers */,
 				1B84AE5D1D1D373F00AF97F7 /* NUIStyleSheet.h in Headers */,
 				1B84AE591D1D373F00AF97F7 /* NUIRuleSet.h in Headers */,
 				1B84AE7D1D1D373F00AF97F7 /* NUISwitchRenderer.h in Headers */,
@@ -1383,7 +1385,6 @@
 				1B84AD631D1D34B700AF97F7 /* NUIParse.h in Headers */,
 				1B84AD581D1D34B700AF97F7 /* NUIPRHSItem.h in Headers */,
 				1B84AEB81D1D373F00AF97F7 /* UITabBarItem+NUI.h in Headers */,
-				1B84AE4B1D1D373F00AF97F7 /* NUISwizzler.h in Headers */,
 				1B84AE671D1D373F00AF97F7 /* NUIBarButtonItemRenderer.h in Headers */,
 				1B84AE7F1D1D373F00AF97F7 /* NUITabBarItemRenderer.h in Headers */,
 				1B84AE771D1D373F00AF97F7 /* NUISearchBarRenderer.h in Headers */,
@@ -1430,7 +1431,6 @@
 				1B84AD931D1D34B700AF97F7 /* NUIPEOFToken.h in Headers */,
 				1B84AD5D1D1D34B700AF97F7 /* NUIPRule.h in Headers */,
 				1B84AEAA1D1D373F00AF97F7 /* UIPageControl+NUI.h in Headers */,
-				1B84AE491D1D373F00AF97F7 /* NUIStyleParser.h in Headers */,
 				1B84AD671D1D34B700AF97F7 /* NUIPParser.h in Headers */,
 				1B84AD991D1D34B700AF97F7 /* NUIPKeywordToken.h in Headers */,
 				1B84AEA41D1D373F00AF97F7 /* UILabel+NUI.h in Headers */,
