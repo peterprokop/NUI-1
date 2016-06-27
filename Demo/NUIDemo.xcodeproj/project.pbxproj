@@ -152,7 +152,7 @@
 		1B84AE441D1D373F00AF97F7 /* NUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB31D1D373F00AF97F7 /* NUIGraphics.m */; };
 		1B84AE451D1D373F00AF97F7 /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB41D1D373F00AF97F7 /* NUIRenderer.h */; };
 		1B84AE461D1D373F00AF97F7 /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB51D1D373F00AF97F7 /* NUIRenderer.m */; };
-		1B84AE471D1D373F00AF97F7 /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB61D1D373F00AF97F7 /* NUISettings.h */; };
+		1B84AE471D1D373F00AF97F7 /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB61D1D373F00AF97F7 /* NUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B84AE481D1D373F00AF97F7 /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB71D1D373F00AF97F7 /* NUISettings.m */; };
 		1B84AE491D1D373F00AF97F7 /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADB81D1D373F00AF97F7 /* NUIStyleParser.h */; };
 		1B84AE4A1D1D373F00AF97F7 /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84ADB91D1D373F00AF97F7 /* NUIStyleParser.m */; };
@@ -1329,6 +1329,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B84AE471D1D373F00AF97F7 /* NUISettings.h in Headers */,
 				1B84AE531D1D373F00AF97F7 /* NUIMediaBlock.h in Headers */,
 				1B84AE891D1D373F00AF97F7 /* NUITextInputTraitsRenderer.h in Headers */,
 				1B84AE791D1D373F00AF97F7 /* NUISegmentedControlRenderer.h in Headers */,
@@ -1383,7 +1384,6 @@
 				1B84AD631D1D34B700AF97F7 /* NUIParse.h in Headers */,
 				1B84AD581D1D34B700AF97F7 /* NUIPRHSItem.h in Headers */,
 				1B84AEB81D1D373F00AF97F7 /* UITabBarItem+NUI.h in Headers */,
-				1B84AE471D1D373F00AF97F7 /* NUISettings.h in Headers */,
 				1B84AE4B1D1D373F00AF97F7 /* NUISwizzler.h in Headers */,
 				1B84AE671D1D373F00AF97F7 /* NUIBarButtonItemRenderer.h in Headers */,
 				1B84AE7F1D1D373F00AF97F7 /* NUITabBarItemRenderer.h in Headers */,
