@@ -138,7 +138,6 @@
 		1B84ADA01D1D34B700AF97F7 /* NUIPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84AD481D1D34B700AF97F7 /* NUIPToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1B84ADA11D1D34B700AF97F7 /* NUIPWhiteSpaceToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84AD491D1D34B700AF97F7 /* NUIPWhiteSpaceToken.h */; };
 		1B84ADA21D1D34B700AF97F7 /* NUIPWhiteSpaceToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B84AD4A1D1D34B700AF97F7 /* NUIPWhiteSpaceToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1B84ADA31D1D34B700AF97F7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1B84AD4B1D1D34B700AF97F7 /* README.md */; };
 		1B84ADA41D1D363F00AF97F7 /* NUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B84ACDC1D1D344300AF97F7 /* NUI.framework */; };
 		1B84ADA51D1D363F00AF97F7 /* NUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B84ACDC1D1D344300AF97F7 /* NUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1B84AE3C1D1D373F00AF97F7 /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B84ADAB1D1D373F00AF97F7 /* NUIAppearance.h */; };
@@ -1824,7 +1823,6 @@
 				1B84AE781D1D373F00AF97F7 /* NUISearchBarRenderer.m in Sources */,
 				1B84AD601D1D34B700AF97F7 /* NSArray+NUIFunctional.m in Sources */,
 				1B84AD501D1D34B700AF97F7 /* NUIPGrammar.m in Sources */,
-				1B84ADA31D1D34B700AF97F7 /* README.md in Sources */,
 				1B84AEB91D1D373F00AF97F7 /* UITabBarItem+NUI.m in Sources */,
 				1B84AE461D1D373F00AF97F7 /* NUIRenderer.m in Sources */,
 				1B84AE601D1D373F00AF97F7 /* NUIStyleSheetItem.m in Sources */,
